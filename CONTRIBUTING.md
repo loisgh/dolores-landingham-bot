@@ -79,6 +79,9 @@ Prior to running 'bin/setup', it may be necessary to launch the postgres server 
 
 To get started, run `bin/setup`
 
+if bin/setup fails check your database.yml file and make sure that you have postgres credentials (i.e.,username:<uname>, password:<pw>)
+that will allow you to create a database and tables.
+
 After setting up, you can run the application using [foreman]:
 
     foreman start
