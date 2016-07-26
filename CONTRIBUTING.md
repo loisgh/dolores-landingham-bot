@@ -81,8 +81,8 @@ To get started, run `bin/setup`
 
 If bin/setup fails with the following error message:
 
-    fe_sendauth: no password supplied
-    Couldn't create database for {"adapter"=>"postgresql", "database"=>"postgres", "encoding"=>"utf8", "host"=>"localhost", "min_messages"=>"warning", "pool"=>5, "reaping_frequency"=>10, "timeout"=>5000}
+```fe_sendauth: no password supplied```
+```Couldn't create database for {"adapter"=>"postgresql", "database"=>"postgres", "encoding"=>"utf8", "host"=>"localhost", "min_messages"=>"warning", "pool"=>5, "reaping_frequency"=>10, "timeout"=>5000}```
 rake aborted!
 
 check your database.yml file.  You might need to set database credentials (i.e.,username:<uname>, password:<pw>)
